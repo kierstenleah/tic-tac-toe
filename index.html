@@ -3,10 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="'stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
     <title>tic-tac-toe</title>
 </head>
 <body>
-    
+    <header>
+        <h1>tic-tac-toe</h1>
+    </header>
+
+        <!--CHOOSE PLAYER-->
+    <nav>
+        <h2>Choose:</h2>
+        <h4 id="choseX">You are:</h4>
+        <h3 id="x">X</h3>
+        <p>or</p>
+        <h4 id="choseO">You are:</h4>
+        <h3 id="o">O</h3>
+    </nav>
+
+     <!--GAME BOARD-->
+    <main>
+        <div class="row top-left top-right">
+            <div class="table-item top-left" id="one"><p></p></div>
+            <div class="table-item" id="two"><p></p></div>
+            <div class="table-item top-right" id="three"><p></p></div>
+        </div>
+         <div class="row">
+            <div class="table-item" id="four"><p></p></div>
+            <div class="table-item" id="five"><p></p></div>
+            <div class="table-item" id="six"><p></p></div>
+        </div>
+         <div class="row bottom-right bottom-left">
+            <div class="table-item bottom-left" id="seven"><p></p></div>
+            <div class="table-item" id="eight"><p></p></div>
+            <div class="table-item bottom-right"  id="nine"><p></p></div>
+        </div>
+    </main>
 </body>
 </html>
